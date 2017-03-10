@@ -23,7 +23,7 @@ include "dbNBA.php";
                 }
               }  
         //se puede ampliar a todas las casualidades pero se puede hacer desde el frontal
-        elseif (empty($_POST['nombre']) && empty($_POST['ciudad']) && empty($_POST['conferencia']) &&empty($_POST['division'])) {
+        elseif (empty($_POST['nombre']) && empty($_POST['ciudad']) && empty($_POST['conferencia']) && empty($_POST['division'])) {
 
             echo "esta vacio"."<br>"."<br>";
         }
